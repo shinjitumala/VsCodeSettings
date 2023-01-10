@@ -1,0 +1,96 @@
+{
+    "vim.useSystemClipboard": true,
+    "doxdocgen.c.commentPrefix": "/// ",
+    "doxdocgen.c.firstLine": "",
+    "doxdocgen.c.lastLine": "",
+    "doxdocgen.c.triggerSequence": "///",
+    "doxdocgen.generic.authorName": "foobar",
+    "doxdocgen.generic.authorEmail": "(gmail) foobar",
+    "doxdocgen.file.fileOrder": [
+        "custom"
+    ],
+    "doxdocgen.generic.briefTemplate": "",
+    "doxdocgen.generic.dateTemplate": "",
+    "editor.fontFamily": "'Noto Sans Mono'",
+    "editor.fontSize": 16,
+    "editor.maxTokenizationLineLength": 2000000,
+    "scm.diffDecorationsGutterWidth": 1,
+    "window.customMenuBarAltFocus": false,
+    "window.menuBarVisibility": "toggle",
+    "window.enableMenuBarMnemonics": false,
+    "workbench.colorTheme": "FPR",
+    "clangd.arguments": [
+        "--compile-commands-dir=build",
+        "--clang-tidy",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--pch-storage=memory",
+        "--header-insertion=never"
+    ],
+    "redhat.telemetry.enabled": false,
+    "workbench.preferredDarkColorTheme": "FPR",
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none",
+    "window.restoreWindows": "one",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "%DOC%",
+                "-interaction=nonstopmode"
+            ]
+        }
+    ],
+    "editor.selectionClipboard": false,
+    "clangd.path": "/home/foobar/github/clangd_releases/clangd",
+    "mesonbuild.configureOnOpen": true,
+    "files.associations": {
+        "*.cppm": "cpp"
+    },
+    "editor.largeFileOptimizations": false,
+    "cwtools.cache.stellaris": "/home/foobar/.local/share/Steam/steamapps/common/Stellaris",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.autobuild.enabled": false,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-16",
+            "path": "/usr/lib/jvm/java-16-openjdk/",
+            "default": true
+        }
+    ],
+    "window.zoomLevel": 2,
+    "C_Cpp.codeAnalysis.clangTidy.codeAction.showClear": "None",
+    "C_Cpp.codeAnalysis.clangTidy.codeAction.showDisable": false,
+    "C_Cpp.codeAnalysis.clangTidy.codeAction.showDocumentation": false,
+    "C_Cpp.codeAnalysis.runAutomatically": false,
+    "breadcrumbs.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "telemetry.telemetryLevel": "off",
+    "glsllint.glslangValidatorArgs": "-V",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "C_Cpp.autocomplete": "Disabled",
+    "C_Cpp.autoAddFileAssociations": false,
+    "[cmake]": {
+        "editor.defaultFormatter": "cheshirekow.cmake-format"
+    },
+    "shellcheck.customArgs": [
+        "-x"
+    ],
+    "rust-client.engine": "rust-analyzer",
+    "workbench.activityBar.visible": false
+}
