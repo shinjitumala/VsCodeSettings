@@ -96,7 +96,7 @@
         "command": "-workbench.action.focusSideBar"
     },
     {
-        "key": "alt+e",
+        "key": "ctrl+' e",
         "command": "workbench.files.action.focusFilesExplorer"
     },
     {
@@ -697,11 +697,6 @@
     {
         "key": "ctrl+' shift+t",
         "command": "editor.action.goToTypeDefinition"
-    },
-    {
-        "key": "ctrl+' e",
-        "command": "editor.action.goToReferences",
-        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     },
     {
         "key": "shift+f12",
@@ -2787,5 +2782,41 @@
     {
         "key": "ctrl+' v",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "alt+6",
+        "command": "workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "alt+7",
+        "command": "workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "alt+8",
+        "command": "workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "alt+9",
+        "command": "workbench.action.openEditorAtIndex9"
     }
 ]
