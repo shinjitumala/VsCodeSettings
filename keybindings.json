@@ -2779,5 +2779,13 @@
     {
         "key": "ctrl+enter",
         "command": "git.commit"
+    },
+    {
+        "key": "ctrl+' x",
+        "command": "terminal.focus"
+    },
+    {
+        "key": "ctrl+' v",
+        "command": "workbench.action.focusActiveEditorGroup"
     }
 ]
