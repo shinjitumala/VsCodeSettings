@@ -4,8 +4,8 @@
     "doxdocgen.c.firstLine": "",
     "doxdocgen.c.lastLine": "",
     "doxdocgen.c.triggerSequence": "///",
-    "doxdocgen.generic.authorName": "foobar",
-    "doxdocgen.generic.authorEmail": "(gmail) foobar",
+    "doxdocgen.generic.authorName": "Shinji Hoshino",
+    "doxdocgen.generic.authorEmail": "(gmail) funny.pig.run",
     "doxdocgen.file.fileOrder": [
         "custom"
     ],
@@ -51,13 +51,12 @@
         }
     ],
     "editor.selectionClipboard": false,
-    "clangd.path": "/home/foobar/github/clangd_releases/clangd",
     "mesonbuild.configureOnOpen": true,
     "files.associations": {
         "*.cppm": "cpp"
     },
     "editor.largeFileOptimizations": false,
-    "cwtools.cache.stellaris": "/home/foobar/.local/share/Steam/steamapps/common/Stellaris",
+    "cwtools.cache.stellaris": "/home/shinjihoshino/.local/share/Steam/steamapps/common/Stellaris",
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
@@ -92,5 +91,11 @@
         "-x"
     ],
     "rust-client.engine": "rust-analyzer",
+    "typescript.format.semicolons": "remove",
+    "javascript.format.semicolons": "remove",
+    "git.openRepositoryInParentFolders": "always",
+    "js/ts.implicitProjectConfig.target": "ES2022",
+    "js/ts.implicitProjectConfig.module": "ES2022",
+    "liveServer.settings.NoBrowser": true,
     "workbench.activityBar.visible": false
 }
