@@ -2818,5 +2818,17 @@
     {
         "key": "alt+9",
         "command": "workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+' w",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
     }
 ]
