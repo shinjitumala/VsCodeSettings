@@ -2821,7 +2821,8 @@
     },
     {
         "key": "ctrl+r",
-        "command": "workbench.action.openRecent"
+        "command": "workbench.action.openRecent",
+        "when": "!editorFocus"
     },
     {
         "key": "ctrl+' w",
@@ -2829,6 +2830,11 @@
     },
     {
         "key": "ctrl+w",
-        "command": "workbench.action.closeActiveEditor"
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "ctrl+' shift+d",
+        "command": "editor.action.revealDefinition"
     }
 ]
