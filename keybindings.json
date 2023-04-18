@@ -2848,5 +2848,17 @@
     {
         "key": "ctrl+' shift+e",
         "command": "editor.action.goToReferences"
+    },
+    {
+        "key": "ctrl+' k",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+' j",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.files.action.focusFilesExplorer"
     }
 ]
