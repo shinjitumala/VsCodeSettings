@@ -2836,5 +2836,17 @@
     {
         "key": "ctrl+' shift+d",
         "command": "editor.action.revealDefinition"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.view.search"
+    },
+    {
+        "key": "ctrl+' d",
+        "command": "editor.action.openLink"
+    },
+    {
+        "key": "ctrl+' shift+e",
+        "command": "editor.action.goToReferences"
     }
 ]
